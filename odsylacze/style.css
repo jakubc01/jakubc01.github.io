@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  cursor: auto;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 884px;
+}
+
+#main {
+  height: 80%;
+  max-width: 500px;
+}
+
+#ramka {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding:  10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+.btn:hover {
+  color: #d47121;
+}
+
+.btn:first-child {
+  color: #fff;
+  background-color: #d47121;
+  transition: background-color 0.5s;
+}
+
+.btn:first-child:hover {
+  color: #fff;
+  background-color: #dd4a1d;
+}
+
